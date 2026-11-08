@@ -62,7 +62,7 @@ footer{background:#061442;color:#cfe0ff;padding:48px 0 24px;margin-top:40px}foot
 .mm b{display:block;font:700 15px Sora,sans-serif}.mm small{display:block;color:var(--mu);font-size:13px;line-height:1.4;margin-top:2px}.mm .e{font-size:22px;width:40px;height:40px;border-radius:12px;background:var(--grad);display:grid;place-items:center;flex:none}
 .poster{background:#f6f9ff;border-bottom:1px solid var(--bd)}.poster img{display:block;width:100%;max-width:1500px;margin:0 auto;height:auto}
 .cp{display:block;width:100%;max-width:560px;margin:32px auto 0;border-radius:24px;box-shadow:var(--sh)}
-@media(max-width:900px){.dd{display:block;align-self:auto}.dd>a::after{content:""}.mm{display:grid;position:static;transform:none;width:auto;grid-template-columns:1fr;box-shadow:none;border:0;padding:0}.hero .g,.two,.r2{grid-template-columns:1fr}.logo-card{transform:none}#bg{display:block}
+@media(max-width:1000px){.dd{display:block;align-self:auto}.dd>a::after{content:""}.mm{display:grid;position:static;transform:none;width:auto;grid-template-columns:1fr;box-shadow:none;border:0;padding:0}.hero .g,.two,.r2{grid-template-columns:1fr}.logo-card{transform:none}#bg{display:block}
 .menu{display:none;position:absolute;top:68px;left:0;right:0;background:var(--bg);flex-direction:column;align-items:stretch;padding:12px 20px;border-bottom:1px solid var(--bd)}.menu.open{display:flex}}
 .soc{display:flex;flex-wrap:wrap;gap:10px}.soc.c{justify-content:center;margin-top:28px}.sl{display:inline-flex;align-items:center;gap:8px;padding:8px 16px 8px 8px;border-radius:99px;background:var(--card);border:1px solid var(--bd);color:var(--tx);font-weight:700;font-size:14px;transition:transform .2s,box-shadow .2s}.sl:hover{transform:translateY(-3px);box-shadow:var(--sh)}.sl i{font-style:normal;width:30px;height:30px;border-radius:50%;background:var(--c);color:#fff;display:grid;place-items:center;font:800 13px Sora,sans-serif}footer .sl{background:rgba(255,255,255,.08);border-color:#1d3180;color:#fff}.fw{text-align:center}.fw h2{margin-bottom:6px}
 html{scroll-behavior:smooth}body,header,.card,.sl,.plat span,input,select,textarea,.mm{transition:background-color .35s ease,color .35s ease,border-color .35s ease,box-shadow .35s ease}
@@ -75,15 +75,20 @@ input:focus,select:focus,textarea:focus{border-color:var(--cy);box-shadow:0 0 0 
 .logo-card{transition:transform .5s cubic-bezier(.2,.7,.2,1)}.logo-card:hover{transform:rotate(0) translateY(-6px)}.poster img{transition:transform .8s ease}
 #app.in{animation:pg .5s cubic-bezier(.2,.7,.2,1)}#app.in .grid>*{animation:pg .55s cubic-bezier(.2,.7,.2,1) both}#app.in .grid>*:nth-child(2){animation-delay:.06s}#app.in .grid>*:nth-child(3){animation-delay:.12s}#app.in .grid>*:nth-child(4){animation-delay:.18s}#app.in .grid>*:nth-child(5){animation-delay:.24s}#app.in .grid>*:nth-child(6){animation-delay:.3s}
 @keyframes pg{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
-@media(min-width:901px){.mm{display:grid;opacity:0;visibility:hidden;pointer-events:none;transform:translate(-50%,12px) scale(.98);transform-origin:top center;transition:opacity .25s ease,transform .3s cubic-bezier(.2,.7,.2,1),visibility 0s linear .3s}.dd:hover .mm,.dd:focus-within .mm{opacity:1;visibility:visible;pointer-events:auto;transform:translate(-50%,0) scale(1);transition-delay:0s}.dd>a::after{display:inline-block;transition:transform .3s}.dd:hover>a::after{transform:rotate(180deg)}}
+@media(min-width:1001px){.mm{display:grid;opacity:0;visibility:hidden;pointer-events:none;transform:translate(-50%,12px) scale(.98);transform-origin:top center;transition:opacity .25s ease,transform .3s cubic-bezier(.2,.7,.2,1),visibility 0s linear .3s}.dd:hover .mm,.dd:focus-within .mm{opacity:1;visibility:visible;pointer-events:auto;transform:translate(-50%,0) scale(1);transition-delay:0s}.dd>a::after{display:inline-block;transition:transform .3s}.dd:hover>a::after{transform:rotate(180deg)}}
 .menu.open{animation:pg .3s ease}
 .cr{width:100%;text-align:center;font-size:12.5px;opacity:.7;padding-top:6px}.cr b{color:#22d3ff;font-weight:700}
 img{max-width:100%}.w{padding-left:max(20px,env(safe-area-inset-left));padding-right:max(20px,env(safe-area-inset-right))}.r2>*,label{min-width:0}#th,#bg{width:44px;height:44px}
 @media(min-width:1500px){.w{max-width:1280px}body{font-size:17px}}
 @media(hover:none){a.card:hover,.btn:hover,.sl:hover,.chip:hover,.plat span:hover,.logo-card:hover{transform:none}a.card:hover .ic{transform:none}}
-@media(max-width:900px){.nav{gap:10px}#th{order:2;margin-left:auto}#bg{order:3;margin-left:0}.menu{max-height:calc(100dvh - 68px - env(safe-area-inset-top,0px));overflow-y:auto;overscroll-behavior:contain}.menu a{padding:13px 14px}.menu a.btn{margin:8px 0 4px;text-align:center}.hero .g{padding:44px 0;gap:28px}.logo-card{max-width:420px;margin:0 auto}.sec{padding:48px 0}.ph{padding:40px 0}}
+@media(max-width:1000px){.nav{gap:10px}#th{order:2;margin-left:auto}#bg{order:3;margin-left:0}.menu{max-height:calc(100dvh - 68px - env(safe-area-inset-top,0px));overflow-y:auto;overscroll-behavior:contain}.menu a{padding:13px 14px}.menu a.btn{margin:8px 0 4px;text-align:center}.hero .g{padding:44px 0;gap:28px}.logo-card{max-width:420px;margin:0 auto}.sec{padding:48px 0}.ph{padding:40px 0}}
 @media(max-width:600px){.poster img{aspect-ratio:16/7;object-fit:cover}.sb{flex-direction:column}.sb select{padding:12px 10px}.sb .btn{width:100%;text-align:center}.cta{padding:32px 20px;border-radius:22px}.card{padding:20px}.card p .btn{display:block;text-align:center;margin:8px 0}.hero p,.ph p{font-size:16px}.sl{font-size:13px}.fb{flex-direction:column;text-align:center}}
 @media(max-width:380px){.brand{font-size:18px}.brand img{width:36px;height:36px}.w{padding-left:14px;padding-right:14px}}
+.sq{position:relative;max-width:560px;margin:0 0 28px}.sq input{padding:15px 70px 15px 46px;border-radius:16px;font-size:16px;box-shadow:var(--sh)}.sq::before{content:"🔍";position:absolute;left:16px;top:13px;font-size:18px}.sq #sn{position:absolute;right:16px;top:16px;font-size:13px;color:var(--mu);pointer-events:none}.mi{grid-column:1/-1;margin-bottom:6px;padding:11px 14px;border-radius:12px}
+#lg{display:flex;align-items:center;justify-content:center;gap:8px;height:44px;padding:0 18px;border-radius:99px;border:1.5px solid var(--pr);color:var(--pr);font-weight:700;font-size:14px;white-space:nowrap;transition:background-color .25s,color .25s,transform .25s}#lg:hover{background:var(--pr);color:#fff;transform:translateY(-2px)}
+.au{max-width:460px;margin:0 auto;width:100%}.tabs{display:grid;grid-template-columns:1fr 1fr;background:var(--bg);border:1px solid var(--bd);border-radius:14px;padding:4px;gap:4px}.tabs button{border:0;background:transparent;color:var(--mu);font:700 15px 'Plus Jakarta Sans',sans-serif;padding:11px;border-radius:10px;cursor:pointer;transition:background .25s,color .25s}.tabs button.on{background:var(--grad);color:#fff}
+.er{display:none;color:#d93a3f;background:color-mix(in srgb,#e5484d 14%,transparent);border-radius:10px;padding:10px 12px;font-size:14px}.av{width:76px;height:76px;border-radius:50%;background:var(--grad);color:#fff;display:grid;place-items:center;font:800 32px Sora,sans-serif;margin:0 auto 12px}
+@media(max-width:1000px){#lg{order:2;width:44px;padding:0}#lg .t{display:none}#lg .u{font-weight:800}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important;animation:none!important}html{scroll-behavior:auto}}
 </style></head><body>
 <header><div class="w nav">
@@ -91,6 +96,7 @@ img{max-width:100%}.w{padding-left:max(20px,env(safe-area-inset-left));padding-r
 <button id="bg" aria-label="Menu">☰</button>
 <nav class="menu" id="menu"><a href="#home" data-p="home">Home</a><div class="dd"><a href="#services" data-p="services">Services</a><div class="mm" id="mm"></div></div><a href="#contact" data-p="contact">Contact</a><a class="btn" href="#post-project">Post a project</a></nav>
 <button id="th" aria-label="Switch theme">🌙</button>
+<a id="lg" href="#login" aria-label="Login"><span class="u">👤</span><span class="t">Login</span></a>
 </div></header>
 <main id="app"></main>
 <footer><div class="w"><div class="grid">
@@ -145,7 +151,7 @@ function svc(s){return `<section class="ph"><div class="w"><div class="bc"><a hr
 <section class="sec"><div class="w two"><div class="card"><h2 style="font-size:24px">What you get</h2><p style="color:var(--mu)">${s.d}</p><ul class="ck">${s.f.map(x=>`<li>${x}</li>`).join('')}</ul></div>
 <div class="card"><h2 style="font-size:24px">Works with</h2><div class="plat" style="margin:14px 0 22px">${s.pl.map(x=>`<span>${x}</span>`).join('')}</div><h2 style="font-size:24px;margin-bottom:12px">How we work</h2><ul class="ck">${s.st.map(x=>`<li>${x}</li>`).join('')}</ul><p style="margin-top:20px"><a class="btn" href="#post-project" data-s="${s.t}">Start this project</a> <a class="btn o" href="https://wa.me/923283415792?text=${encodeURIComponent('Hi BrandvoraPK, I need '+s.t)}">Ask on WhatsApp</a></p></div></div>
 <div class="w" style="margin-top:36px"><h2 style="font-size:24px;margin-bottom:16px">Other services</h2><div class="grid">${S.filter(x=>x!==s).slice(0,3).map(sc).join('')}</div></div></section>`}
-function list(){return `<section class="ph"><div class="w"><h1>Our services</h1><p>Everything your brand needs to grow online.</p></div></section><section class="sec"><div class="w"><div class="grid">${S.map(sc).join('')}</div></div></section>`}
+function list(){return `<section class="ph"><div class="w"><h1>Our services</h1><p>Everything your brand needs to grow online.</p></div></section><section class="sec"><div class="w"><div class="sq"><input id="sq" type="search" placeholder="Search services, e.g. ads, logo, TikTok, website…" aria-label="Search services"><span id="sn"></span></div><div class="grid" id="sg">${S.map(sc).join('')}</div><p id="se" class="sub" hidden>No service matches your search. Try “ads”, “design” or “video”, or <a href="#post-project" style="color:var(--pr);font-weight:700">post a project</a> and tell us what you need.</p></div></section>`}
 function contact(){return `<section class="ph"><div class="w"><h1>Contact us</h1><p>Let’s grow your brand together.</p></div></section><section class="sec"><div class="w grid">
 <a class="card" href="https://wa.me/923283415792"><div class="ic">💬</div><h3>WhatsApp</h3><p>+92 328 3415792</p></a>
 <a class="card" href="mailto:Brandvora.pk@gmail.com"><div class="ic">✉️</div><h3>Email</h3><p>Brandvora.pk@gmail.com</p></a>
@@ -156,19 +162,37 @@ function post(){return `<section class="ph"><div class="w"><h1>Post a project</h
 <div class="r2"><label>Service needed<select name="Service" id="ps">${opts}</select></label><label>Budget (PKR)<select name="Budget"><option>Under 10,000</option><option>10,000 – 30,000</option><option>30,000 – 100,000</option><option>100,000+</option><option>Not sure yet</option></select></label></div>
 <label>Deadline<input type="date" name="Deadline"></label><label>Project details<textarea name="Details" rows="5" required placeholder="Describe your goals, audience and anything we should know."></textarea></label>
 <button class="btn" type="submit">Send project</button><div class="ok" id="ok">Your email app is opening with the project details. Press send there, or message us on WhatsApp.</div></form></div></section>`}
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let users={},me=null,am='in';try{users=JSON.parse(localStorage.getItem('bv-users')||'{}');me=JSON.parse(localStorage.getItem('bv-me')||'null')}catch(e){}
+function save(){try{localStorage.setItem('bv-users',JSON.stringify(users));localStorage.setItem('bv-me',JSON.stringify(me))}catch(e){}}
+async function hsh(p){try{const b=await crypto.subtle.digest('SHA-256',new TextEncoder().encode('bvpk:'+p));return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join('')}catch(e){return btoa(unescape(encodeURIComponent('bvpk:'+p)))}}
+function hdr(){$('#lg .t').textContent=me?me.name.split(' ')[0]:'Login';$('#lg .u').textContent=me?me.name[0].toUpperCase():'👤';$('#lg').setAttribute('aria-label',me?'My account':'Login')}
+function login(){if(me)return `<section class="ph"><div class="w"><h1>My account</h1><p>Welcome back, ${esc(me.name)}.</p></div></section><section class="sec"><div class="w"><div class="card au" style="text-align:center"><div class="av">${esc(me.name[0].toUpperCase())}</div><h3>${esc(me.name)}</h3><p>${esc(me.email)}</p><p style="margin-top:20px"><a class="btn" href="#post-project">Post a project</a> <button class="btn o" id="lo">Log out</button></p></div></div></section>`;
+return `<section class="ph"><div class="w"><h1>${am==='in'?'Welcome back':'Create your account'}</h1><p>${am==='in'?'Log in to post projects faster.':'Sign up to save your details and post projects faster.'}</p></div></section><section class="sec"><div class="w"><form class="card au" id="af" novalidate><div class="tabs"><button type="button" data-m="in" class="${am==='in'?'on':''}">Log in</button><button type="button" data-m="up" class="${am==='up'?'on':''}">Sign up</button></div>${am==='up'?'<label>Full name<input name="name" autocomplete="name"></label>':''}<label>Email<input type="email" name="email" autocomplete="email"></label><label>Password<input type="password" name="pw" autocomplete="${am==='in'?'current-password':'new-password'}"></label>${am==='up'?'<label>Confirm password<input type="password" name="pw2" autocomplete="new-password"></label>':''}<div class="er" id="er" role="alert"></div><button class="btn" type="submit">${am==='in'?'Log in':'Create account'}</button></form></div></section>`}
+function bindLogin(){if(me){$('#lo').onclick=()=>{me=null;save();hdr();location.hash='#home'};return}
+document.querySelectorAll('.tabs button').forEach(b=>b.onclick=()=>{am=b.dataset.m;route()});
+$('#af').onsubmit=async e=>{e.preventDefault();const f=new FormData(e.target),em=(f.get('email')||'').trim().toLowerCase(),pw=f.get('pw')||'',er=$('#er'),fail=m=>{er.textContent=m;er.style.display='block'};
+if(!/^\S+@\S+\.\S+$/.test(em))return fail('Enter a valid email address.');if(pw.length<6)return fail('Password must be at least 6 characters.');
+const hp=await hsh(em+pw);
+if(am==='up'){const nm=(f.get('name')||'').trim();if(!nm)return fail('Enter your full name.');if(pw!==f.get('pw2'))return fail('Passwords don’t match.');if(users[em])return fail('An account with this email already exists. Log in instead.');users[em]={name:nm,h:hp};me={name:nm,email:em}}
+else{const u=users[em];if(!u||u.h!==hp)return fail('Email or password is incorrect.');me={name:u.name,email:em}}
+save();hdr();location.hash='#home'}}
+function bindSearch(){const q=$('#sq'),g=$('#sg'),n=$('#sn'),e=$('#se');q.oninput=()=>{const t=q.value.toLowerCase().trim().split(/\s+/).filter(Boolean);let c=0;[...g.children].forEach((a,i)=>{const s=S[i],x=(s.t+' '+s.tag+' '+s.d+' '+s.f.join(' ')+' '+s.pl.join(' ')).toLowerCase(),m=t.every(w=>x.includes(w));a.style.display=m?'':'none';if(m)c++});n.textContent=t.length?c+' of '+S.length:'';e.hidden=c>0};
+q.onkeydown=ev=>{if(ev.key==='Enter'){const v=[...g.children].filter(a=>a.style.display!=='none');if(v.length===1)location.hash=v[0].getAttribute('href')}}}
 function route(){let h=(location.hash||'#home').slice(1),s=S.find(x=>x.id===h);
-app.innerHTML=s?svc(s):h==='services'?list():h==='contact'?contact():h==='post-project'?post():home();
+app.innerHTML=s?svc(s):h==='services'?list():h==='contact'?contact():h==='login'?login():h==='post-project'?post():home();
 document.title=(s?s.t+' – ':h==='post-project'?'Post a project – ':'')+'BrandvoraPK';
 document.querySelectorAll('.menu a[data-p]').forEach(a=>a.classList.toggle('on',a.dataset.p===h));
 $('#menu').classList.remove('open');window.scrollTo({top:0,behavior:'instant'});app.classList.remove('in');void app.offsetWidth;app.classList.add('in');
-if(h==='home'){$('#hg').onclick=()=>{const v=$('#hs').value;location.hash=S.find(x=>x.t===v).id}}
-if(h==='post-project'){if(pick)$('#ps').value=pick;
+if(h==='login')bindLogin();if(h==='services')bindSearch();if(h==='home'){$('#hg').onclick=()=>{const v=$('#hs').value;location.hash=S.find(x=>x.t===v).id}}
+if(h==='post-project'){if(pick)$('#ps').value=pick;if(me){const f=$('#pf').elements;f.Name.value=me.name;f.Email.value=me.email}
 $('#pf').onsubmit=e=>{e.preventDefault();const d=new FormData(e.target);let b='';d.forEach((v,k)=>b+=k+': '+v+'\n');
 $('#ok').style.display='block';location.href='mailto:Brandvora.pk@gmail.com?subject='+encodeURIComponent('New project: '+d.get('Service'))+'&body='+encodeURIComponent(b)}}}
 document.addEventListener('click',e=>{const a=e.target.closest('[data-s]');pick=a?a.dataset.s:(e.target.closest('a[href="#post-project"]')?pick:'')});
-$('#mm').innerHTML=S.map(s=>`<a href="#${s.id}"><span class="e">${s.ic}</span><span><b>${s.t}</b><small>${s.d}</small></span></a>`).join('');
+$('#mm').innerHTML='<input class="mi" id="mq" type="search" placeholder="Search services…" aria-label="Search services">'+S.map(s=>`<a href="#${s.id}"><span class="e">${s.ic}</span><span><b>${s.t}</b><small>${s.d}</small></span></a>`).join('');
 $('#fs').innerHTML=S.map(s=>`<li><a href="#${s.id}">${s.t}</a></li>`).join('');
-$('#fsoc').innerHTML=soc();
+$('#fsoc').innerHTML=soc();hdr();
+$('#mq').oninput=e=>{const q=e.target.value.toLowerCase();document.querySelectorAll('#mm a').forEach(a=>a.style.display=a.textContent.toLowerCase().includes(q)?'':'none')};
 $('#bg').onclick=()=>$('#menu').classList.toggle('open');
 function theme(t,save){document.documentElement.dataset.theme=t;$('#th').textContent=t==='dark'?'☀️':'🌙';if(save)try{localStorage.setItem('bv-theme',t)}catch(e){}}
 let t0;try{t0=localStorage.getItem('bv-theme')}catch(e){}
